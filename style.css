@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Les titres */
+h1 {
+  text-align: center;
+}
+h1::after {
+  content: '';
+  display: block;
+  border: 2px solid black;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  left: 40%;
+  width: 20%;
+}
+h2::after {
+  content: '';
+  border-bottom: 2px solid teal;
+  display: block;
+  width: 30%;
+  justify-content: center;
+  position: relative;
+  left: 10px;
+}
+
+.titre_court {
+  text-decoration: underline 3px solid teal;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+/* Les titres */
+
+/* Formulaire */
+form {
+  margin-left: 20px;
+}
+#result {
+  border: 2px solid teal;
+  width: 20%;
+  margin: 20px;
+}
+/* Formulaire */
