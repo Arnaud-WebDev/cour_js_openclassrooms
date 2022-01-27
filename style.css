@@ -42,7 +42,7 @@ form {
 }
 #result {
   border: 2px solid teal;
-  width: 20%;
+  max-width: 200px;
   margin: 20px;
 }
 /* Formulaire */
